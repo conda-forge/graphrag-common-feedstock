@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: 3.1.2
+  version: "3.2.0"
   python_min: '3.11'
 
 package:
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/g/graphrag-common/graphrag_common-${{ version }}.tar.gz
-  sha256: d34fa3870826a498911adc5eee270321f982855663c7a8d975b19ea41577c56b
+  sha256: 82da738dc86a26f4457a0f67a89828fdcd5234e901362f81db101b733ab38243
 
 build:
   number: 0
